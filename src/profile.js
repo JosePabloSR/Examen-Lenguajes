@@ -31,8 +31,8 @@ export default function Profile(props) {
 
         <div>
           <p className="mt-5">
-            Este repositorio fue creado{" "}
-            {format(new Date(props.created_at), "dd MMMM yyyy")} by{" "}
+            Este repositorio fue creado el {" "}
+            {format(new Date(props.created_at), "dd MMMM yyyy")} por {" "}
             {props.owner.login}
           </p>
         </div>

@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect } from "react"
-import Loading from "../../../loadin"
+import Loading from "../../../Loading"
 import Profile from "../../../profile"
 
 // const singleUser = `https://api.github.com/users/JosePabloSR`
