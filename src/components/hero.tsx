@@ -9,7 +9,7 @@ interface HeroProps {
 
 export default function Hero(props: HeroProps) {
   return (
-    <div className="relative h-screen">
+    <div className="relative h-screen flex flex-col justify-center items-center">
      <div className="absolute -z-10 inset-0">
       <Image
         src = {props.imgData}
@@ -18,10 +18,14 @@ export default function Hero(props: HeroProps) {
         style = {{ objectFit: 'cover'}} 
       />
      </div>
-     <div className="pt-48 flex justify-center items-center z-20">
-       <h1 className="text-white text-6xl">{props.title}</h1>
-     </div>
-     <div className="absolute inset-0 bg-gradient-to-l from-slate-700"></div>
-    </div>
+
+<h1 className="text-white text-6xl">{props.title}</h1>
+<br />
+<div className="flex items-center space-x-8 animate-marquee">
+ <div className="bg-white p-1 rounded-lg shadow-md flex-shrink-0">
+<p className="text-gradient text-4xl">{props.text}</p>
+</div>
+</div>
+</div>
   );
 }

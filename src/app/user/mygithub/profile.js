@@ -4,11 +4,12 @@ import { format } from "date-fns"
 export default function Profile(props) {
   return (
     <>
-      <article className="p-5 bg-white rounded-lg shadow shadow-emerald-300">
+      <article className="bg-black p-5 rounded shadow shadow-red-500">
         <div className="flex items-center">
           <img
-            src={props.owner.avatar_url} alt={props.owner.login}
-            className="w-20 h-20 shadow rounded-full shadow"
+            src={props.owner.avatar_url}
+            alt={props.owner.login}
+            className="w-16 h-16 shadow rounded-full"
           />
           <ul className="ml-5">
             <li>
@@ -18,11 +19,11 @@ export default function Profile(props) {
               <p className="mr-2">{props.name}</p>
               {props.private ? (
                 <p className="bg-rose-700 py-1 px-2 rounded-lg shadow text-white text-xs inline-block opacity-75">
-                  Private
+                  Privado
                 </p>
               ) : (
                 <p className="bg-emerald-700 py-1 px-2 rounded-lg shadow text-white text-xs inline-block opacity-75 mr-2">
-                  Public
+                  Publico
                 </p>
               )}
             </div>
@@ -44,11 +45,11 @@ export default function Profile(props) {
             target="_blank"
             rel="noreferrer"
           >
-            View Repo
+            Ver Repositorio
           </a>
           <ul>
-            <li>{props.stargazers_count.toLocaleString()} stars</li>
-            <li>{props.watchers_count.toLocaleString()} Watchers</li>
+            <li>{props.stargazers_count.toLocaleString()} Estrellas</li>
+            <li>{props.watchers_count.toLocaleString()} Seguidores</li>
           </ul>
         </div>
 
