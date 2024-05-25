@@ -24,7 +24,6 @@ export default function Hero(props: HeroProps) {
       <br />
       <div className="flex items-center space-x-8 animate-marquee">
         <div className="bg-white p-1 rounded-lg shadow-md flex-shrink-0">
-          <p className="text-gradient text-4xl">{props.text}</p>
         </div>
       </div>
      
