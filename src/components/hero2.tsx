@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import type { StaticImageData } from 'next/image';
 
+ 
 interface Hero2Props {
   imgData: StaticImageData;
   imgAlt: string;
@@ -58,6 +59,16 @@ export default function Hero2(props: Hero2Props) {
             <ul className="list-disc list-inside text-xl text-black">
               <li>Atención al cliente</li>
               <li>Digitador de datos</li>
+            </ul>
+          </div>
+          <div className="bg-white p-8 rounded-lg shadow-md flex-shrink-0 hover:scale-110 transition-transform duration-300">
+            <h3 className="text-xl font-bold mb-2 text-black">Mis certificaciones</h3>
+            <ul className="list-disc list-inside text-xl text-black">
+              <li>Cibersegurida</li>
+              <li>Linux</li>
+              <li>Trascrip</li>
+              <li>Libre Office Writter</li>
+              <li>JavaScript Essentials 1</li>
             </ul>
           </div>
         </div>
