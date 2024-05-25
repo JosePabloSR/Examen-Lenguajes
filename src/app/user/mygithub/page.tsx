@@ -4,7 +4,6 @@ import Loading from "./Loading"
 import Profile from "./profile"
 import { GithubRepo } from "@/app/types";
 
-
 // const singleUser = `https://api.github.com/users/JosePabloSR`
 // const repos = `https://api.github.com/users/JosePabloSR/repos?`
 // https://api.github.com/users/JosePabloSR/repos?page=1&per_page=10&sort=updated
@@ -12,7 +11,7 @@ import { GithubRepo } from "@/app/types";
 function MyGithub() {
  const [items, setItems] = useState<GithubRepo[]>([]);
   // Change this to any username whose repositories you want to get
-  const [user] = useState("JosePabloSR")
+  const [user] = useState(process.env.NEXT_PUBLIC_USERNAME);
 
   useEffect(() => {
     const fetchRepos = async () => {
