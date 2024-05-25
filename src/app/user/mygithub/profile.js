@@ -1,8 +1,10 @@
 import React from "react"
 import { format } from "date-fns"
+import Hero from '@/components/hero'
 
 export default function Profile(props) {
   return (
+    
     <>
       <article className="bg-black p-5 rounded shadow shadow-red-500">
         <div className="flex items-center">

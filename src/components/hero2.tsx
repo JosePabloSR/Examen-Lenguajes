@@ -57,7 +57,7 @@ export default function Hero2(props: Hero2Props) {
             <h3 className="text-xl font-bold mb-2 text-black">Experiencias laborales</h3>
             <ul className="list-disc list-inside text-xl text-black">
               <li>Atención al cliente</li>
-              <li>Despachador y empacador de productos </li>
+              <li>Digitador de datos</li>
             </ul>
           </div>
         </div>

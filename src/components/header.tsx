@@ -13,7 +13,7 @@ export default function Header(){
                 <div className="space-x-4 text-xl">
                     <Link href="gallery">Mis Certificados</Link>
                     <Link href="user/aboutme">Sobre Mi</Link>
-                     <Link href="user/mygithub">Mis Repositorios</Link>
+                     <Link href="user/mygithub">Mis Repositorios</Link>   
                 </div>
             </nav> 
         </div>

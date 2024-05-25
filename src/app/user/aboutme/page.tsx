@@ -15,10 +15,10 @@ export default function AboutMe() {
     imgAlt2="Fondo de la página"
     title="Sobre mí" 
     name="Jose Pablo Solís Rodríguez" 
-    ubication="Costa Rica, Puntarenas, Golfito, Golfito" 
+    ubication="Costa Rica, Puntarenas, Cantón Golfito, Distrito Golfito" 
     email="josepablosolisrodriguez@gmail.com"
-    text="Me gusta guta trabajar en equipo siempre que pueda, 
-    si tengo la oportunidad de ayudar lo hago. Me encanta el partado de diseño en los proyectos y
+    text="Me gusta trabajar en equipo siempre que pueda, 
+    si tengo la oportunidad de ayudar lo hago. Me inclino más hacia el apartado de diseño en los proyectos y
      también el de mantenimiento de equipos"
     />
   </div>
